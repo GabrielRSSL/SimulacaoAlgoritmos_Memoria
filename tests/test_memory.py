@@ -34,7 +34,7 @@ def test_coalescence_left_right_both(order, expected):
 
 @pytest.mark.parametrize("policy,chosen_start,remainder,count", [
     (first_fit, 101, 320, 2), (best_fit, 602, 20, 5), (worst_fit, 1104, 420, 5)])
-def test_article_valid_example(policy, chosen_start, remainder, count):
+def test_policy_selection_valid_example(policy, chosen_start, remainder, count):
     # Separadores de uma unidade mantêm distintos os cinco blocos livres.
     memory = Memory(1704)
     identifier = 1
