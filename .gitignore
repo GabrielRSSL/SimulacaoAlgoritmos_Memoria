@@ -5,9 +5,15 @@ __pycache__/
 .mplconfig/
 .pytest_tmp/
 
+# Intermediários de preparação/conferência e arquivos finais entregues pelo chat.
+/tmp/
+/output/
+# Preferência do autor: incluir automaticamente novas pastas com essa mesma
+# finalidade no ignore, preservando os arquivos locais. Não aplicar essa regra
+# aos resultados científicos e materiais necessários à reprodução.
+
 # Materiais pessoais da redação do artigo e biblioteca local de leitura.
 # O protocolo público está em docs/protocolo_v1.md.
-/artigo_memoria*.docx
 /Referencias/
 ~$*.docx
 .~lock.*#
