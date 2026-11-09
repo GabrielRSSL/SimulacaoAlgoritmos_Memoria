@@ -1,0 +1,7 @@
+{
+  "status": "complete",
+  "runs": 54,
+  "completed_at_utc": "2026-11-08T21:40:47.282840+00:00",
+  "input_manifest_sha256": "61db25fce99b1cb8e34e7c6448657a26ed7f7fe8581ce79b222aec36b22665f4",
+  "method": "replay independente dos ocupados e oráculo declarativo"
+}

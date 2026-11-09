@@ -1,0 +1,13 @@
+{
+  "protocol_version": "1.0",
+  "prosseguir": true,
+  "decided_at_utc": "2026-11-08T21:42:15.525875+00:00",
+  "pilot_path": "resultados/piloto_v1",
+  "pilot_runs": 54,
+  "tests_passed": 48,
+  "parameters_changed": false,
+  "reason": "Testes e auditoria aprovados; inspeção das três sementes por cenário não indicou padrão de transiente residual consistente que exija mudança material. Manter parâmetros previamente definidos.",
+  "limitation": "Avaliação descritiva de três sementes não comprova estacionariedade; oscilações de P3 e possível viés residual permanecem limitações.",
+  "report_sha256": "61fb33444d525b5a0922c533bdbe9e474e98cd9b4ab572726b42333987a62050",
+  "audit_manifest_sha256": "aec0d75a55ad19cc530ce545c8fd0a7f692cd0bbbd02af5cbed9377beaab3a6a"
+}

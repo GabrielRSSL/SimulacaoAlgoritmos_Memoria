@@ -1,0 +1,121 @@
+{
+  "checked_at_utc": "2026-11-09T00:29:10.567791+00:00",
+  "runs": 540,
+  "attempts_all": 6480000,
+  "collected_attempts": 5400000,
+  "drained_runs": 540,
+  "dispersion_valid": 5400000,
+  "zero_free": 0,
+  "all_21_files_identical": true,
+  "compared_files": [
+    {
+      "file": "graficos\\atendimento_quantidade.png",
+      "sha256": "5b94acf1e855d49797c281bfd1759cbf5e190401a28f8ab53c93d28943afcbbb",
+      "identical": true
+    },
+    {
+      "file": "graficos\\atendimento_volume.png",
+      "sha256": "3aca94eda7c672057601e726cd4f74dd73586523956b5d6570d8d070fbc1ccc3",
+      "identical": true
+    },
+    {
+      "file": "graficos\\esforco_busca.png",
+      "sha256": "ed75552354f081e3e37635101d368f033a6096a93b16363c8f68858b96b592dc",
+      "identical": true
+    },
+    {
+      "file": "graficos\\ocupacao_dispersao.png",
+      "sha256": "15e36bb6442aa1ed58d38987546da5a1ee1e316fb3393c5802e8fbee073795d6",
+      "identical": true
+    },
+    {
+      "file": "graficos\\recusas.png",
+      "sha256": "c0bcec2d5703dcaa3c1a57859103d826873434b6b6b70703ea2ddf2f2104a31a",
+      "identical": true
+    },
+    {
+      "file": "graficos\\serie_P1D1_semente_1.png",
+      "sha256": "d36dff1f40e3a6aa07c558d16ed70a141ad6774a01c5e88ded36ce4ca49146c0",
+      "identical": true
+    },
+    {
+      "file": "graficos\\serie_P1D2_semente_1.png",
+      "sha256": "78f84537b4d8bb760bac063df52814b0db0419fb795583f8e471c9ab822cb495",
+      "identical": true
+    },
+    {
+      "file": "graficos\\serie_P2D1_semente_1.png",
+      "sha256": "3a980f8a1108ee9f5fceb1f1fd82ff47699f987871ff9434ebdcbfba49760e60",
+      "identical": true
+    },
+    {
+      "file": "graficos\\serie_P2D2_semente_1.png",
+      "sha256": "0d5dc30efbf82639987da846eacfe2c89b1b25dd3acf0e686113c6d59df6535a",
+      "identical": true
+    },
+    {
+      "file": "graficos\\serie_P3D1_semente_1.png",
+      "sha256": "12877e2dac4c378665058be8a399fce103e0a9e821f4df0badfd0d1a6be99f6e",
+      "identical": true
+    },
+    {
+      "file": "graficos\\serie_P3D2_semente_1.png",
+      "sha256": "34ef5754d7000995a2f12a71f2bdb6641137ae6c4ce28a4d84b1a52c6281200c",
+      "identical": true
+    },
+    {
+      "file": "relatorio_resultados.md",
+      "sha256": "afefaaeee1dfb983541a7f18f302cf50fe39472594c2f19d075d3e9a425cfad1",
+      "identical": true
+    },
+    {
+      "file": "tabelas\\atendimento.md",
+      "sha256": "d12ce3ad44ae105396ff75eeedea8e554816fe26f99ed0b8b3d2824adf8337f8",
+      "identical": true
+    },
+    {
+      "file": "tabelas\\busca.md",
+      "sha256": "cbf067f65e25160e7c1ffabc9beee047cc0e171f54cb7a07994d66395768c1bb",
+      "identical": true
+    },
+    {
+      "file": "tabelas\\cobertura_D.md",
+      "sha256": "19494ebb9fe73986d7d6a4e57bda22aab5f7288f437ecb10ddeacf6eaa5284b5",
+      "identical": true
+    },
+    {
+      "file": "tabelas\\diagnostico_temporal.csv",
+      "sha256": "710b7a4e865c13372600680880ce2fb74858873c8a0083770972dc08e277a7ea",
+      "identical": true
+    },
+    {
+      "file": "tabelas\\diferencas_pareadas.md",
+      "sha256": "dee56c4e39c15544253fcbc61b2416e851088535a74d7e5ccadba9b0d14e7447",
+      "identical": true
+    },
+    {
+      "file": "tabelas\\diferencas_pareadas_por_semente.csv",
+      "sha256": "412fe3e9482c9378171c7d00f309d304f7b1461061c4b3168c0f99317c0e9028",
+      "identical": true
+    },
+    {
+      "file": "tabelas\\diferencas_pareadas_resumo.csv",
+      "sha256": "ccedc040eb72a5b972892cb8dac62d986f536de60f0f8ad234ef8b7c7405ca68",
+      "identical": true
+    },
+    {
+      "file": "tabelas\\estado.md",
+      "sha256": "5e5c6fa6e763f793b96ca21cf9d3e127a1d054c692f0ce5a30e6e8f05c78b39b",
+      "identical": true
+    },
+    {
+      "file": "tabelas\\resumo_cenario_algoritmo.csv",
+      "sha256": "f0b51fa61a445f8865cdcf34e2d2fb031672a6dc98266f17a543b2fc9e2e1790",
+      "identical": true
+    }
+  ],
+  "svg_files_parsed": 11,
+  "png_files_visually_inspected": 11,
+  "source_matches_frozen": true,
+  "article_unchanged": true
+}

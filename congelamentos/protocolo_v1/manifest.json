@@ -1,0 +1,43 @@
+{
+  "status": "frozen",
+  "frozen_at_utc": "2026-11-08T21:42:16.843501+00:00",
+  "config_hash": "fef18a3332a50045c3a6b4f444695afa4c9973baa70bc9a9e47cf8835688e889",
+  "code_hash": "f86ebd2d280429aa68b19e02529cf37f53eb20eb5a20885e6614cb4ba6525713",
+  "environment": {
+    "captured_at_utc": "2026-11-08T21:42:16.886930+00:00",
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "executable": "E:\\Downloads\\Artigo SO\\.venv\\Scripts\\python.exe",
+    "implementation": "CPython",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "machine": "AMD64",
+    "processor": "Intel64 Family 6 Model 165 Stepping 3, GenuineIntel",
+    "packages": {
+      "Pygments": "2.21.0",
+      "colorama": "0.4.6",
+      "contourpy": "1.4.0",
+      "cycler": "0.12.1",
+      "fonttools": "4.68.0",
+      "iniconfig": "2.3.1",
+      "kiwisolver": "1.5.1",
+      "matplotlib": "3.11.2",
+      "numpy": "2.5.4",
+      "packaging": "26.3",
+      "pillow": "13.0.0",
+      "pip": "26.3",
+      "pluggy": "1.7.0",
+      "pyparsing": "3.3.3",
+      "pytest": "9.2.0",
+      "python-dateutil": "4.0.0",
+      "tzdata": "2026.6"
+    },
+    "simulator_version": "1.0.0",
+    "rng_library": "random da biblioteca padrão CPython; Mersenne Twister",
+    "rng_version": "3.12.14",
+    "git_commit": null,
+    "git_status": null,
+    "source_digest": "f86ebd2d280429aa68b19e02529cf37f53eb20eb5a20885e6614cb4ba6525713"
+  },
+  "pilot_manifest_sha256": "61db25fce99b1cb8e34e7c6448657a26ed7f7fe8581ce79b222aec36b22665f4",
+  "assessment_sha256": "44874e7bd7d3f47e0f3f6a970765513861d4f741853d44faba66f8e74405d9e9",
+  "pilot_path": "E:\\Downloads\\Artigo SO\\resultados\\piloto_v1"
+}

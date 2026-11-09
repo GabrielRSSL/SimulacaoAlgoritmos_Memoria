@@ -1,0 +1,10 @@
+{
+  "status": "complete",
+  "checked_at_utc": "2026-11-09T00:33:24.392014+00:00",
+  "run_keys": 540,
+  "aggregated_rows": 270,
+  "paired_differences": 8100,
+  "paired_summary_rows": 270,
+  "method": "Conferencia independente das medias com math.fsum, DP com n-1 e subtracao por mesma semente/cenario",
+  "tolerance": 1e-10
+}

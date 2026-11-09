@@ -1,0 +1,15 @@
+{
+  "protocol_version": "1.0",
+  "capacity": 4096,
+  "requests": 12000,
+  "warmup": 2000,
+  "scenarios": ["P1D1", "P1D2", "P2D1", "P2D2", "P3D1", "P3D2"],
+  "seeds": [1001,1002,1003],
+  "algorithms": ["first_fit", "best_fit", "worst_fit"],
+  "sizes": {"P1": [16,48], "P2": [1,63], "P3": {"small_probability": 0.9, "small": [1,16], "large": [220,267]}},
+  "durations": {"D1": [40,120], "D2": [60,180]},
+  "rng": "random.Random; SHA256(memsim-v1|cenario|semente|fluxo), inteiro big-endian; fluxos tamanho e permanencia",
+  "illustrative_seed": 1001,
+  "temporal_bin": 500,
+  "check_invariants": true
+}

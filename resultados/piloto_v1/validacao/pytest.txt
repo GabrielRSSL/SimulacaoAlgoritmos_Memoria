@@ -1,0 +1,59 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.14, pytest-9.2.0, pluggy-1.7.0 -- E:\Downloads\Artigo SO\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: E:\Downloads\Artigo SO
+configfile: pytest.ini
+testpaths: tests
+collecting ... collected 48 items
+
+tests/test_memory.py::test_exact_split_empty_and_total_failure[first_fit] PASSED [  2%]
+tests/test_memory.py::test_exact_split_empty_and_total_failure[best_fit] PASSED [  4%]
+tests/test_memory.py::test_exact_split_empty_and_total_failure[worst_fit] PASSED [  6%]
+tests/test_memory.py::test_coalescence_left_right_both[order0-expected0] PASSED [  8%]
+tests/test_memory.py::test_coalescence_left_right_both[order1-expected1] PASSED [ 10%]
+tests/test_memory.py::test_coalescence_left_right_both[order2-expected2] PASSED [ 12%]
+tests/test_memory.py::test_article_valid_example[first_fit-101-320-2] PASSED [ 14%]
+tests/test_memory.py::test_article_valid_example[best_fit-602-20-5] PASSED [ 16%]
+tests/test_memory.py::test_article_valid_example[worst_fit-1104-420-5] PASSED [ 18%]
+tests/test_memory.py::test_tie_lowest_address[first_fit] PASSED          [ 20%]
+tests/test_memory.py::test_tie_lowest_address[best_fit] PASSED           [ 22%]
+tests/test_memory.py::test_tie_lowest_address[worst_fit] PASSED          [ 25%]
+tests/test_memory.py::test_counts_and_best_exact_stop PASSED             [ 27%]
+tests/test_memory.py::test_invariants_detect_corruption[overlap] PASSED  [ 29%]
+tests/test_memory.py::test_invariants_detect_corruption[gap] PASSED      [ 31%]
+tests/test_memory.py::test_invariants_detect_corruption[negative] PASSED [ 33%]
+tests/test_memory.py::test_invariants_detect_corruption[adjacent] PASSED [ 35%]
+tests/test_memory.py::test_invariants_detect_corruption[unsorted] PASSED [ 37%]
+tests/test_memory.py::test_invariants_detect_corruption[outside] PASSED  [ 39%]
+tests/test_memory.py::test_invalid_identifier_and_request PASSED         [ 41%]
+tests/test_memory.py::test_random_operations_with_independent_cell_oracle[first_fit] PASSED [ 43%]
+tests/test_memory.py::test_random_operations_with_independent_cell_oracle[best_fit] PASSED [ 45%]
+tests/test_memory.py::test_random_operations_with_independent_cell_oracle[worst_fit] PASSED [ 47%]
+tests/test_simulation.py::test_release_before_arrival_and_same_time_id_order PASSED [ 50%]
+tests/test_simulation.py::test_total_rejection_no_future_release PASSED  [ 52%]
+tests/test_simulation.py::test_fragmentation_rejection_and_unchanged_state[first_fit] PASSED [ 54%]
+tests/test_simulation.py::test_fragmentation_rejection_and_unchanged_state[best_fit] PASSED [ 56%]
+tests/test_simulation.py::test_fragmentation_rejection_and_unchanged_state[worst_fit] PASSED [ 58%]
+tests/test_simulation.py::test_warmup_preserved_and_drainage_excluded PASSED [ 60%]
+tests/test_simulation.py::test_dispersion_missing_for_zero_free_and_all_missing_summary PASSED [ 62%]
+tests/test_simulation.py::test_schedule_consistency_and_context_error PASSED [ 64%]
+tests/test_simulation.py::test_invalid_request[fields0] PASSED           [ 66%]
+tests/test_simulation.py::test_invalid_request[fields1] PASSED           [ 68%]
+tests/test_simulation.py::test_invalid_request[fields2] PASSED           [ 70%]
+tests/test_simulation.py::test_invalid_request[fields3] PASSED           [ 72%]
+tests/test_simulation.py::test_invalid_request[fields4] PASSED           [ 75%]
+tests/test_simulation.py::test_trace_order_required PASSED               [ 77%]
+tests/test_traces_analysis.py::test_reproducibility_support_and_independent_streams[P1D1] PASSED [ 79%]
+tests/test_traces_analysis.py::test_reproducibility_support_and_independent_streams[P1D2] PASSED [ 81%]
+tests/test_traces_analysis.py::test_reproducibility_support_and_independent_streams[P2D1] PASSED [ 83%]
+tests/test_traces_analysis.py::test_reproducibility_support_and_independent_streams[P2D2] PASSED [ 85%]
+tests/test_traces_analysis.py::test_reproducibility_support_and_independent_streams[P3D1] PASSED [ 87%]
+tests/test_traces_analysis.py::test_reproducibility_support_and_independent_streams[P3D2] PASSED [ 89%]
+tests/test_traces_analysis.py::test_p3_proportion_not_forced PASSED      [ 91%]
+tests/test_traces_analysis.py::test_aggregation_sd_missing_and_paired_direction PASSED [ 93%]
+tests/test_traces_analysis.py::test_missing_group_never_imputed_zero PASSED [ 95%]
+tests/test_traces_analysis.py::test_end_to_end_export_audit_and_protect_existing PASSED [ 97%]
+tests/test_traces_analysis.py::test_failed_execution_never_publishes_valid_summary PASSED [100%]
+
+- generated xml file: E:\Downloads\Artigo SO\resultados\piloto_v1\validacao\pytest.xml -
+============================= 48 passed in 1.73s ==============================

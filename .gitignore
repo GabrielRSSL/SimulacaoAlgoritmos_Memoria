@@ -1,0 +1,24 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+.mplconfig/
+.pytest_tmp/
+
+# Materiais pessoais da redação do artigo e biblioteca local de leitura.
+# O protocolo público está em docs/protocolo_v1.md.
+/artigo_memoria*.docx
+/Referencias/
+~$*.docx
+.~lock.*#
+
+# Pedido e recibos da entrega ao autor; não são documentação de uso público.
+/docs/solicitacao_original.txt
+/ENTREGA.md
+/manifesto_entrega.json
+
+# Saídas auxiliares duplicadas da verificação dos comandos.
+# Preservar piloto, coleta principal e congelamentos para reprodução.
+/resultados/rastros_avulsos_*/
+/resultados/execucao_avulsa_*/
+/resultados/analise_regenerada_*/
